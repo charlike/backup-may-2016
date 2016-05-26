@@ -1,0 +1,42 @@
+{
+  "name": "voa",
+  "version": "0.0.0",
+  "description": "Virtual file object format.",
+  "repository": "tunnckoCore/voa",
+  "author": "Charlike Mike Reagent <@tunnckoCore> (http://www.tunnckocore.tk)",
+  "precommit.silent": true,
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "standard && node test.js"
+  },
+  "dependencies": {
+    "define-property": "^0.2.5",
+    "export-files": "^2.1.1",
+    "extend-shallow": "^2.0.1",
+    "is-buffer": "^1.1.3",
+    "is-dotdir": "^0.1.0",
+    "is-dotfile": "^1.0.2",
+    "is-node-stream": "^1.0.0",
+    "is-plain-object": "^2.0.1",
+    "use": "^1.1.2"
+  },
+  "devDependencies": {
+    "assertit": "^0.1.0",
+    "pre-commit": "*"
+  },
+  "files": [
+    "index.js",
+    "utils.js"
+  ],
+  "keywords": [
+    "voa"
+  ],
+  "verb": {
+    "toc": false,
+    "layout": "empty",
+    "tasks": [
+      "readme"
+    ]
+  }
+}
