@@ -1,0 +1,29 @@
+{
+  "name": "useful-error-tostring",
+  "version": "0.0.0",
+  "description": "Little bit opinionated, customizable and useful formatting for Error's toString method.",
+  "repository": "tunnckoCore/useful-error-tostring",
+  "author": "Charlike Mike Reagent <@tunnckoCore> (http://www.tunnckocore.tk)",
+  "precommit.silent": true,
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "standard && node test.js"
+  },
+  "dependencies": {
+    "define-property": "^0.2.5",
+    "is-typeof-error": "^1.0.1",
+    "stacktrace-metadata": "^1.0.0"
+  },
+  "devDependencies": {
+    "assertit": "^0.1.0",
+    "kind-error": "^2.0.0",
+    "pre-commit": "*"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "useful-error-tostring"
+  ]
+}
